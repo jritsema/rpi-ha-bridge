@@ -1,0 +1,6 @@
+ha-bridge:
+  image: jritsema/rpi-ha-bridge:3.5.1
+  volumes:
+    - /home/pi/ha-bridge:/habridge/data
+  net: host
+  restart: always
